@@ -1,0 +1,1541 @@
+/* extra large size */
+
+@media (min-width: 1920px){
+
+  [mod-if-screen-xl~="text-small"]{
+    font-size: 80%;
+  }
+  [mod-if-screen-xl~="text-insert"],
+  [mod-if-screen-xl~="text-mark"]{
+    background: #D4F5FF;
+    color: #666;
+    text-decoration: none;
+  }
+  [mod-if-screen-xl~="text-abbr"]{
+      border-bottom: 1px dotted;
+  }
+  [mod-if-screen-xl~="text-em"]{
+    font-style: italic;
+    color: #F44336;
+  }
+  [mod-if-screen-xl~="text-delete"]{
+    text-decoration: line-through;
+  }
+  [mod-if-screen-xl~="text-strong"]{
+      font-weight: 700;
+  }
+  [mod-if-screen-xl~="text-code"]{
+    color: #F44336 !important;
+    font-family: monospace, arial;
+  }
+  [mod-if-screen-xl~="text-h1"]{
+    font-size: 2.5rem;
+  }
+  [mod-if-screen-xl~="text-h2"]{
+    font-size: 2rem;
+  }
+  [mod-if-screen-xl~="text-h3"]{
+    font-size: 1.75rem;
+  }
+  [mod-if-screen-xl~="text-h4"]{
+    font-size: 1.5rem;
+  }
+  [mod-if-screen-xl~="text-h5"]{
+    font-size: 1.25rem;
+  }
+  [mod-if-screen-xl~="text-h6"]{
+    font-size: 1rem;
+  }
+
+
+  /* __ text sizes __ */
+  
+  [mod-if-screen-xl~="text-10p"]
+  [mod-if-screen-xl~="text-10p"] a{
+    font-size: 10px !important;
+  }
+  [mod-if-screen-xl~="text-12p"]
+  [mod-if-screen-xl~="text-12p"] a{
+    font-size: 12px !important;
+  }
+  [mod-if-screen-xl~="text-13p"]
+  [mod-if-screen-xl~="text-13p"] a{
+    font-size: 13px !important;
+  }
+  [mod-if-screen-xl~="text-14p"]
+  [mod-if-screen-xl~="text-14p"] a{
+    font-size: 14px !important;
+  }
+  [mod-if-screen-xl~="text-15p"]
+  [mod-if-screen-xl~="text-15p"] a{
+    font-size: 15px !important;
+  }
+  [mod-if-screen-xl~="text-16p"]
+  [mod-if-screen-xl~="text-16p"] a{
+    font-size: 16px !important;
+  }
+  [mod-if-screen-xl~="text-17p"]
+  [mod-if-screen-xl~="text-17p"] a{
+    font-size: 17px !important;
+    font-weight: 500;
+  }
+  [mod-if-screen-xl~="text-18p"]
+  [mod-if-screen-xl~="text-18p"] a{
+    font-size: 18px !important;
+  }
+  [mod-if-screen-xl~="text-19p"]
+  [mod-if-screen-xl~="text-19p"] a{
+    font-size: 19px !important;
+    font-weight: 500;
+  }
+  [mod-if-screen-xl~="text-20p"]
+  [mod-if-screen-xl~="text-20p"] a{
+    font-size: 20px !important;
+  }
+  [mod-if-screen-xl~="text-21p"]
+  [mod-if-screen-xl~="text-21p"] a{
+    font-size: 21px !important;
+  }
+  [mod-if-screen-xl~="text-22p"]
+  [mod-if-screen-xl~="text-22p"] a{
+    font-size: 22px !important;
+  }
+  [mod-if-screen-xl~="text-23p"]
+  [mod-if-screen-xl~="text-23p"] a{
+    font-size: 23px !important;
+  }
+  [mod-if-screen-xl~="text-24p"]
+  [mod-if-screen-xl~="text-24p"] a{
+    font-size: 24px !important;
+  }
+  [mod-if-screen-xl~="text-25p"]
+  [mod-if-screen-xl~="text-25p"] a{
+    font-size: 24px !important;
+  }
+  [mod-if-screen-xl~="text-26p"]
+  [mod-if-screen-xl~="text-26p"] a{
+    font-size: 26px !important;
+    font-weight: 600;
+  }
+  [mod-if-screen-xl~="text-27p"]
+  [mod-if-screen-xl~="text-27p"] a{
+    font-size: 27px !important;
+  }
+  [mod-if-screen-xl~="text-28p"]
+  [mod-if-screen-xl~="text-28p"] a{
+    font-size: 28px !important;
+  }
+  [mod-if-screen-xl~="text-29p"]
+  [mod-if-screen-xl~="text-29p"] a{
+    font-size: 29px !important;
+  }
+  [mod-if-screen-xl~="text-30p"]
+  [mod-if-screen-xl~="text-30p"] a{
+    font-size: 30px !important;
+  }
+  [mod-if-screen-xl~="text-31p"]
+  [mod-if-screen-xl~="text-31p"] a{
+    font-size: 31px !important;
+  }
+  [mod-if-screen-xl~="text-32p"]
+  [mod-if-screen-xl~="text-32p"] a{
+    font-size: 32px !important;
+  }
+
+  /*__ text alignment __*/
+
+  [mod-if-screen-xl~="text-align-center"]{
+    text-align: center;
+  }
+  [mod-if-screen-xl~="text-align-left"]{
+    text-align: left;
+  }
+  [mod-if-screen-xl~="text-align-right"]{
+    text-align: right;
+  }
+  [mod-if-screen-xl~="text-align-justify"]{
+    text-align: justify;
+  }
+
+  /* __ text decoration __ */
+
+  [mod-if-screen-xl~="text-line-through"],
+  [mod-if-screen-xl~="text-line-through"] a{
+    text-decoration: line-through;
+  }
+  [mod-if-screen-xl~="text-line-underline"],
+  [mod-if-screen-xl~="text-line-underline"] a{
+    text-decoration: underline;
+  }
+  [mod-if-screen-xl~="text-line-overline"],
+  [mod-if-screen-xl~="text-line-overline"] a{
+    text-decoration: overline;
+  }
+  [mod-if-screen-xl~="text-line-through"],
+  [mod-if-screen-xl~="text-line-through"] a{
+    text-decoration: line-through;
+  }
+
+  /* __ white space __*/
+
+  [mod-if-screen-xl~="text-nowrap"]{
+    white-space: nowrap;
+  }
+
+  /*__ text  __*/
+
+  [mod-if-screen-xl~="text-capitalize"],
+  [mod-if-screen-xl~="text-capitalize"] a{
+    text-transform: capitalize;
+  }
+  [mod-if-screen-xl~="text-lowercase"],
+  [mod-if-screen-xl~="text-lowercase"] a{
+    text-transform: lowercase;
+  }
+  [mod-if-screen-xl~="text-uppercase"],
+  [mod-if-screen-xl~="text-uppercase"] a{
+    text-transform: uppercase;
+  }
+
+  /* __ text style __ */
+
+  [mod-if-screen-xl~="text-normal"],
+  [mod-if-screen-xl~="text-normal"] a{
+    font-style: normal;
+  }
+  [mod-if-screen-xl~="text-italic"],
+  [mod-if-screen-xl~="text-italic"] a{
+    font-style: italic;
+  }
+  [mod-if-screen-xl~="text-oblique"],
+  [mod-if-screen-xl~="text-oblique"] a{
+    font-style: oblique;
+  }
+  [mod-if-screen-xl~="text-initial"],
+  [mod-if-screen-xl~="text-initial"] a{
+    font-style: initial;
+  }
+  [mod-if-screen-xl~="text-inherit"],
+  [mod-if-screen-xl~="text-inherit"] a{
+    font-style: inherit;
+  }
+
+  /* __ font weight __ */
+
+  [mod-if-screen-xl~="text-strong"],
+  [mod-if-screen-xl~="text-strong"] a{
+    font-weight: 600;
+  }
+  [mod-if-screen-xl~="text-lite"],
+  [mod-if-screen-xl~="text-lite"] a,
+  [mod-if-screen-xl~="text-300"],
+  [mod-if-screen-xl~="text-300"] a{
+    font-weight: 300;
+  }
+  [mod-if-screen-xl~="text-400"],
+  [mod-if-screen-xl~="text-400"] a{
+    font-weight: 400;
+  }
+  [mod-if-screen-xl~="text-500"],
+  [mod-if-screen-xl~="text-500"] a{
+    font-weight: 500;
+  }
+  [mod-if-screen-xl~="text-600"],
+  [mod-if-screen-xl~="text-600"] a{
+    font-weight: 600;
+  }
+  [mod-if-screen-xl~="text-700"],
+  [mod-if-screen-xl~="text-700"] a{
+    font-weight: 700;
+  }
+  [mod-if-screen-xl~="text-800"],
+  [mod-if-screen-xl~="text-800"] a{
+    font-weight: 800;
+  }
+
+}
+
+/* large size */
+
+@media (max-width: 1920px){
+  
+  [mod-if-screen-lg~="text-small"]{
+    font-size: 80%;
+  }
+  [mod-if-screen-lg~="text-insert"],
+  [mod-if-screen-lg~="text-mark"]{
+    background: #D4F5FF;
+    color: #666;
+    text-decoration: none;
+  }
+  [mod-if-screen-lg~="text-abbr"]{
+      border-bottom: 1px dotted;
+  }
+  [mod-if-screen-lg~="text-em"]{
+    font-style: italic;
+    color: #F44336;
+  }
+  [mod-if-screen-lg~="text-delete"]{
+    text-decoration: line-through;
+  }
+  [mod-if-screen-lg~="text-strong"]{
+      font-weight: 700;
+  }
+  [mod-if-screen-lg~="text-code"]{
+    color: #F44336 !important;
+    font-family: monospace, arial;
+  }
+  [mod-if-screen-lg~="text-h1"]{
+    font-size: 2.5rem;
+  }
+  [mod-if-screen-lg~="text-h2"]{
+    font-size: 2rem;
+  }
+  [mod-if-screen-lg~="text-h3"]{
+    font-size: 1.75rem;
+  }
+  [mod-if-screen-lg~="text-h4"]{
+    font-size: 1.5rem;
+  }
+  [mod-if-screen-lg~="text-h5"]{
+    font-size: 1.25rem;
+  }
+  [mod-if-screen-lg~="text-h6"]{
+    font-size: 1rem;
+  }
+
+
+  /* __ text sizes __ */
+  
+  [mod-if-screen-lg~="text-10p"]
+  [mod-if-screen-lg~="text-10p"] a{
+    font-size: 10px !important;
+  }
+  [mod-if-screen-lg~="text-12p"]
+  [mod-if-screen-lg~="text-12p"] a{
+    font-size: 12px !important;
+  }
+  [mod-if-screen-lg~="text-13p"]
+  [mod-if-screen-lg~="text-13p"] a{
+    font-size: 13px !important;
+  }
+  [mod-if-screen-lg~="text-14p"]
+  [mod-if-screen-lg~="text-14p"] a{
+    font-size: 14px !important;
+  }
+  [mod-if-screen-lg~="text-15p"]
+  [mod-if-screen-lg~="text-15p"] a{
+    font-size: 15px !important;
+  }
+  [mod-if-screen-lg~="text-16p"]
+  [mod-if-screen-lg~="text-16p"] a{
+    font-size: 16px !important;
+  }
+  [mod-if-screen-lg~="text-17p"]
+  [mod-if-screen-lg~="text-17p"] a{
+    font-size: 17px !important;
+    font-weight: 500;
+  }
+  [mod-if-screen-lg~="text-18p"]
+  [mod-if-screen-lg~="text-18p"] a{
+    font-size: 18px !important;
+  }
+  [mod-if-screen-lg~="text-19p"]
+  [mod-if-screen-lg~="text-19p"] a{
+    font-size: 19px !important;
+    font-weight: 500;
+  }
+  [mod-if-screen-lg~="text-20p"]
+  [mod-if-screen-lg~="text-20p"] a{
+    font-size: 20px !important;
+  }
+  [mod-if-screen-lg~="text-21p"]
+  [mod-if-screen-lg~="text-21p"] a{
+    font-size: 21px !important;
+  }
+  [mod-if-screen-lg~="text-22p"]
+  [mod-if-screen-lg~="text-22p"] a{
+    font-size: 22px !important;
+  }
+  [mod-if-screen-lg~="text-23p"]
+  [mod-if-screen-lg~="text-23p"] a{
+    font-size: 23px !important;
+  }
+  [mod-if-screen-lg~="text-24p"]
+  [mod-if-screen-lg~="text-24p"] a{
+    font-size: 24px !important;
+  }
+  [mod-if-screen-lg~="text-25p"]
+  [mod-if-screen-lg~="text-25p"] a{
+    font-size: 24px !important;
+  }
+  [mod-if-screen-lg~="text-26p"]
+  [mod-if-screen-lg~="text-26p"] a{
+    font-size: 26px !important;
+    font-weight: 600;
+  }
+  [mod-if-screen-lg~="text-27p"]
+  [mod-if-screen-lg~="text-27p"] a{
+    font-size: 27px !important;
+  }
+  [mod-if-screen-lg~="text-28p"]
+  [mod-if-screen-lg~="text-28p"] a{
+    font-size: 28px !important;
+  }
+  [mod-if-screen-lg~="text-29p"]
+  [mod-if-screen-lg~="text-29p"] a{
+    font-size: 29px !important;
+  }
+  [mod-if-screen-lg~="text-30p"]
+  [mod-if-screen-lg~="text-30p"] a{
+    font-size: 30px !important;
+  }
+  [mod-if-screen-lg~="text-31p"]
+  [mod-if-screen-lg~="text-31p"] a{
+    font-size: 31px !important;
+  }
+  [mod-if-screen-lg~="text-32p"]
+  [mod-if-screen-lg~="text-32p"] a{
+    font-size: 32px !important;
+  }
+
+  /*__ text alignment __*/
+
+  [mod-if-screen-lg~="text-align-center"]{
+    text-align: center;
+  }
+  [mod-if-screen-lg~="text-align-left"]{
+    text-align: left;
+  }
+  [mod-if-screen-lg~="text-align-right"]{
+    text-align: right;
+  }
+  [mod-if-screen-lg~="text-align-justify"]{
+    text-align: justify;
+  }
+
+  /* __ text decoration __ */
+
+  [mod-if-screen-lg~="text-line-through"],
+  [mod-if-screen-lg~="text-line-through"] a{
+    text-decoration: line-through;
+  }
+  [mod-if-screen-lg~="text-line-underline"],
+  [mod-if-screen-lg~="text-line-underline"] a{
+    text-decoration: underline;
+  }
+  [mod-if-screen-lg~="text-line-overline"],
+  [mod-if-screen-lg~="text-line-overline"] a{
+    text-decoration: overline;
+  }
+  [mod-if-screen-lg~="text-line-through"],
+  [mod-if-screen-lg~="text-line-through"] a{
+    text-decoration: line-through;
+  }
+
+  /* __ white space __*/
+
+  [mod-if-screen-lg~="text-nowrap"]{
+    white-space: nowrap;
+  }
+
+  /*__ text  __*/
+
+  [mod-if-screen-lg~="text-capitalize"],
+  [mod-if-screen-lg~="text-capitalize"] a{
+    text-transform: capitalize;
+  }
+  [mod-if-screen-lg~="text-lowercase"],
+  [mod-if-screen-lg~="text-lowercase"] a{
+    text-transform: lowercase;
+  }
+  [mod-if-screen-lg~="text-uppercase"],
+  [mod-if-screen-lg~="text-uppercase"] a{
+    text-transform: uppercase;
+  }
+
+  /* __ text style __ */
+
+  [mod-if-screen-lg~="text-normal"],
+  [mod-if-screen-lg~="text-normal"] a{
+    font-style: normal;
+  }
+  [mod-if-screen-lg~="text-italic"],
+  [mod-if-screen-lg~="text-italic"] a{
+    font-style: italic;
+  }
+  [mod-if-screen-lg~="text-oblique"],
+  [mod-if-screen-lg~="text-oblique"] a{
+    font-style: oblique;
+  }
+  [mod-if-screen-lg~="text-initial"],
+  [mod-if-screen-lg~="text-initial"] a{
+    font-style: initial;
+  }
+  [mod-if-screen-lg~="text-inherit"],
+  [mod-if-screen-lg~="text-inherit"] a{
+    font-style: inherit;
+  }
+
+  /* __ font weight __ */
+
+  [mod-if-screen-lg~="text-strong"],
+  [mod-if-screen-lg~="text-strong"] a{
+    font-weight: 600;
+  }
+  [mod-if-screen-lg~="text-lite"],
+  [mod-if-screen-lg~="text-lite"] a,
+  [mod-if-screen-lg~="text-300"],
+  [mod-if-screen-lg~="text-300"] a{
+    font-weight: 300;
+  }
+  [mod-if-screen-lg~="text-400"],
+  [mod-if-screen-lg~="text-400"] a{
+    font-weight: 400;
+  }
+  [mod-if-screen-lg~="text-500"],
+  [mod-if-screen-lg~="text-500"] a{
+    font-weight: 500;
+  }
+  [mod-if-screen-lg~="text-600"],
+  [mod-if-screen-lg~="text-600"] a{
+    font-weight: 600;
+  }
+  [mod-if-screen-lg~="text-700"],
+  [mod-if-screen-lg~="text-700"] a{
+    font-weight: 700;
+  }
+  [mod-if-screen-lg~="text-800"],
+  [mod-if-screen-lg~="text-800"] a{
+    font-weight: 800;
+  }
+
+}
+
+/* medium size */
+
+@media (max-width: 1280px){
+  
+  [mod-if-screen-md~="text-small"]{
+    font-size: 80%;
+  }
+  [mod-if-screen-md~="text-insert"],
+  [mod-if-screen-md~="text-mark"]{
+    background: #D4F5FF;
+    color: #666;
+    text-decoration: none;
+  }
+  [mod-if-screen-md~="text-abbr"]{
+      border-bottom: 1px dotted;
+  }
+  [mod-if-screen-md~="text-em"]{
+    font-style: italic;
+    color: #F44336;
+  }
+  [mod-if-screen-md~="text-delete"]{
+    text-decoration: line-through;
+  }
+  [mod-if-screen-md~="text-strong"]{
+      font-weight: 700;
+  }
+  [mod-if-screen-md~="text-code"]{
+    color: #F44336 !important;
+    font-family: monospace, arial;
+  }
+  [mod-if-screen-md~="text-h1"]{
+    font-size: 2.5rem;
+  }
+  [mod-if-screen-md~="text-h2"]{
+    font-size: 2rem;
+  }
+  [mod-if-screen-md~="text-h3"]{
+    font-size: 1.75rem;
+  }
+  [mod-if-screen-md~="text-h4"]{
+    font-size: 1.5rem;
+  }
+  [mod-if-screen-md~="text-h5"]{
+    font-size: 1.25rem;
+  }
+  [mod-if-screen-md~="text-h6"]{
+    font-size: 1rem;
+  }
+
+
+  /* __ text sizes __ */
+  
+  [mod-if-screen-md~="text-10p"]
+  [mod-if-screen-md~="text-10p"] a{
+    font-size: 10px !important;
+  }
+  [mod-if-screen-md~="text-12p"]
+  [mod-if-screen-md~="text-12p"] a{
+    font-size: 12px !important;
+  }
+  [mod-if-screen-md~="text-13p"]
+  [mod-if-screen-md~="text-13p"] a{
+    font-size: 13px !important;
+  }
+  [mod-if-screen-md~="text-14p"]
+  [mod-if-screen-md~="text-14p"] a{
+    font-size: 14px !important;
+  }
+  [mod-if-screen-md~="text-15p"]
+  [mod-if-screen-md~="text-15p"] a{
+    font-size: 15px !important;
+  }
+  [mod-if-screen-md~="text-16p"]
+  [mod-if-screen-md~="text-16p"] a{
+    font-size: 16px !important;
+  }
+  [mod-if-screen-md~="text-17p"]
+  [mod-if-screen-md~="text-17p"] a{
+    font-size: 17px !important;
+    font-weight: 500;
+  }
+  [mod-if-screen-md~="text-18p"]
+  [mod-if-screen-md~="text-18p"] a{
+    font-size: 18px !important;
+  }
+  [mod-if-screen-md~="text-19p"]
+  [mod-if-screen-md~="text-19p"] a{
+    font-size: 19px !important;
+    font-weight: 500;
+  }
+  [mod-if-screen-md~="text-20p"]
+  [mod-if-screen-md~="text-20p"] a{
+    font-size: 20px !important;
+  }
+  [mod-if-screen-md~="text-21p"]
+  [mod-if-screen-md~="text-21p"] a{
+    font-size: 21px !important;
+  }
+  [mod-if-screen-md~="text-22p"]
+  [mod-if-screen-md~="text-22p"] a{
+    font-size: 22px !important;
+  }
+  [mod-if-screen-md~="text-23p"]
+  [mod-if-screen-md~="text-23p"] a{
+    font-size: 23px !important;
+  }
+  [mod-if-screen-md~="text-24p"]
+  [mod-if-screen-md~="text-24p"] a{
+    font-size: 24px !important;
+  }
+  [mod-if-screen-md~="text-25p"]
+  [mod-if-screen-md~="text-25p"] a{
+    font-size: 24px !important;
+  }
+  [mod-if-screen-md~="text-26p"]
+  [mod-if-screen-md~="text-26p"] a{
+    font-size: 26px !important;
+    font-weight: 600;
+  }
+  [mod-if-screen-md~="text-27p"]
+  [mod-if-screen-md~="text-27p"] a{
+    font-size: 27px !important;
+  }
+  [mod-if-screen-md~="text-28p"]
+  [mod-if-screen-md~="text-28p"] a{
+    font-size: 28px !important;
+  }
+  [mod-if-screen-md~="text-29p"]
+  [mod-if-screen-md~="text-29p"] a{
+    font-size: 29px !important;
+  }
+  [mod-if-screen-md~="text-30p"]
+  [mod-if-screen-md~="text-30p"] a{
+    font-size: 30px !important;
+  }
+  [mod-if-screen-md~="text-31p"]
+  [mod-if-screen-md~="text-31p"] a{
+    font-size: 31px !important;
+  }
+  [mod-if-screen-md~="text-32p"]
+  [mod-if-screen-md~="text-32p"] a{
+    font-size: 32px !important;
+  }
+
+  /*__ text alignment __*/
+
+  [mod-if-screen-md~="text-align-center"]{
+    text-align: center;
+  }
+  [mod-if-screen-md~="text-align-left"]{
+    text-align: left;
+  }
+  [mod-if-screen-md~="text-align-right"]{
+    text-align: right;
+  }
+  [mod-if-screen-md~="text-align-justify"]{
+    text-align: justify;
+  }
+
+  /* __ text decoration __ */
+
+  [mod-if-screen-md~="text-line-through"],
+  [mod-if-screen-md~="text-line-through"] a{
+    text-decoration: line-through;
+  }
+  [mod-if-screen-md~="text-line-underline"],
+  [mod-if-screen-md~="text-line-underline"] a{
+    text-decoration: underline;
+  }
+  [mod-if-screen-md~="text-line-overline"],
+  [mod-if-screen-md~="text-line-overline"] a{
+    text-decoration: overline;
+  }
+  [mod-if-screen-md~="text-line-through"],
+  [mod-if-screen-md~="text-line-through"] a{
+    text-decoration: line-through;
+  }
+
+  /* __ white space __*/
+
+  [mod-if-screen-md~="text-nowrap"]{
+    white-space: nowrap;
+  }
+
+  /*__ text  __*/
+
+  [mod-if-screen-md~="text-capitalize"],
+  [mod-if-screen-md~="text-capitalize"] a{
+    text-transform: capitalize;
+  }
+  [mod-if-screen-md~="text-lowercase"],
+  [mod-if-screen-md~="text-lowercase"] a{
+    text-transform: lowercase;
+  }
+  [mod-if-screen-md~="text-uppercase"],
+  [mod-if-screen-md~="text-uppercase"] a{
+    text-transform: uppercase;
+  }
+
+  /* __ text style __ */
+
+  [mod-if-screen-md~="text-normal"],
+  [mod-if-screen-md~="text-normal"] a{
+    font-style: normal;
+  }
+  [mod-if-screen-md~="text-italic"],
+  [mod-if-screen-md~="text-italic"] a{
+    font-style: italic;
+  }
+  [mod-if-screen-md~="text-oblique"],
+  [mod-if-screen-md~="text-oblique"] a{
+    font-style: oblique;
+  }
+  [mod-if-screen-md~="text-initial"],
+  [mod-if-screen-md~="text-initial"] a{
+    font-style: initial;
+  }
+  [mod-if-screen-md~="text-inherit"],
+  [mod-if-screen-md~="text-inherit"] a{
+    font-style: inherit;
+  }
+
+  /* __ font weight __ */
+
+  [mod-if-screen-md~="text-strong"],
+  [mod-if-screen-md~="text-strong"] a{
+    font-weight: 600;
+  }
+  [mod-if-screen-md~="text-lite"],
+  [mod-if-screen-md~="text-lite"] a,
+  [mod-if-screen-md~="text-300"],
+  [mod-if-screen-md~="text-300"] a{
+    font-weight: 300;
+  }
+  [mod-if-screen-md~="text-400"],
+  [mod-if-screen-md~="text-400"] a{
+    font-weight: 400;
+  }
+  [mod-if-screen-md~="text-500"],
+  [mod-if-screen-md~="text-500"] a{
+    font-weight: 500;
+  }
+  [mod-if-screen-md~="text-600"],
+  [mod-if-screen-md~="text-600"] a{
+    font-weight: 600;
+  }
+  [mod-if-screen-md~="text-700"],
+  [mod-if-screen-md~="text-700"] a{
+    font-weight: 700;
+  }
+  [mod-if-screen-md~="text-800"],
+  [mod-if-screen-md~="text-800"] a{
+    font-weight: 800;
+  }
+
+}
+
+/* small size */
+
+@media (max-width: 960px){
+  
+  [mod-if-screen-sm~="text-small"]{
+    font-size: 80%;
+  }
+  [mod-if-screen-sm~="text-insert"],
+  [mod-if-screen-sm~="text-mark"]{
+    background: #D4F5FF;
+    color: #666;
+    text-decoration: none;
+  }
+  [mod-if-screen-sm~="text-abbr"]{
+      border-bottom: 1px dotted;
+  }
+  [mod-if-screen-sm~="text-em"]{
+    font-style: italic;
+    color: #F44336;
+  }
+  [mod-if-screen-sm~="text-delete"]{
+    text-decoration: line-through;
+  }
+  [mod-if-screen-sm~="text-strong"]{
+      font-weight: 700;
+  }
+  [mod-if-screen-sm~="text-code"]{
+    color: #F44336 !important;
+    font-family: monospace, arial;
+  }
+  [mod-if-screen-sm~="text-h1"]{
+    font-size: 2.5rem;
+  }
+  [mod-if-screen-sm~="text-h2"]{
+    font-size: 2rem;
+  }
+  [mod-if-screen-sm~="text-h3"]{
+    font-size: 1.75rem;
+  }
+  [mod-if-screen-sm~="text-h4"]{
+    font-size: 1.5rem;
+  }
+  [mod-if-screen-sm~="text-h5"]{
+    font-size: 1.25rem;
+  }
+  [mod-if-screen-sm~="text-h6"]{
+    font-size: 1rem;
+  }
+
+
+  /* __ text sizes __ */
+  
+  [mod-if-screen-sm~="text-10p"]
+  [mod-if-screen-sm~="text-10p"] a{
+    font-size: 10px !important;
+  }
+  [mod-if-screen-sm~="text-12p"]
+  [mod-if-screen-sm~="text-12p"] a{
+    font-size: 12px !important;
+  }
+  [mod-if-screen-sm~="text-13p"]
+  [mod-if-screen-sm~="text-13p"] a{
+    font-size: 13px !important;
+  }
+  [mod-if-screen-sm~="text-14p"]
+  [mod-if-screen-sm~="text-14p"] a{
+    font-size: 14px !important;
+  }
+  [mod-if-screen-sm~="text-15p"]
+  [mod-if-screen-sm~="text-15p"] a{
+    font-size: 15px !important;
+  }
+  [mod-if-screen-sm~="text-16p"]
+  [mod-if-screen-sm~="text-16p"] a{
+    font-size: 16px !important;
+  }
+  [mod-if-screen-sm~="text-17p"]
+  [mod-if-screen-sm~="text-17p"] a{
+    font-size: 17px !important;
+    font-weight: 500;
+  }
+  [mod-if-screen-sm~="text-18p"]
+  [mod-if-screen-sm~="text-18p"] a{
+    font-size: 18px !important;
+  }
+  [mod-if-screen-sm~="text-19p"]
+  [mod-if-screen-sm~="text-19p"] a{
+    font-size: 19px !important;
+    font-weight: 500;
+  }
+  [mod-if-screen-sm~="text-20p"]
+  [mod-if-screen-sm~="text-20p"] a{
+    font-size: 20px !important;
+  }
+  [mod-if-screen-sm~="text-21p"]
+  [mod-if-screen-sm~="text-21p"] a{
+    font-size: 21px !important;
+  }
+  [mod-if-screen-sm~="text-22p"]
+  [mod-if-screen-sm~="text-22p"] a{
+    font-size: 22px !important;
+  }
+  [mod-if-screen-sm~="text-23p"]
+  [mod-if-screen-sm~="text-23p"] a{
+    font-size: 23px !important;
+  }
+  [mod-if-screen-sm~="text-24p"]
+  [mod-if-screen-sm~="text-24p"] a{
+    font-size: 24px !important;
+  }
+  [mod-if-screen-sm~="text-25p"]
+  [mod-if-screen-sm~="text-25p"] a{
+    font-size: 24px !important;
+  }
+  [mod-if-screen-sm~="text-26p"]
+  [mod-if-screen-sm~="text-26p"] a{
+    font-size: 26px !important;
+    font-weight: 600;
+  }
+  [mod-if-screen-sm~="text-27p"]
+  [mod-if-screen-sm~="text-27p"] a{
+    font-size: 27px !important;
+  }
+  [mod-if-screen-sm~="text-28p"]
+  [mod-if-screen-sm~="text-28p"] a{
+    font-size: 28px !important;
+  }
+  [mod-if-screen-sm~="text-29p"]
+  [mod-if-screen-sm~="text-29p"] a{
+    font-size: 29px !important;
+  }
+  [mod-if-screen-sm~="text-30p"]
+  [mod-if-screen-sm~="text-30p"] a{
+    font-size: 30px !important;
+  }
+  [mod-if-screen-sm~="text-31p"]
+  [mod-if-screen-sm~="text-31p"] a{
+    font-size: 31px !important;
+  }
+  [mod-if-screen-sm~="text-32p"]
+  [mod-if-screen-sm~="text-32p"] a{
+    font-size: 32px !important;
+  }
+
+  /*__ text alignment __*/
+
+  [mod-if-screen-sm~="text-align-center"]{
+    text-align: center;
+  }
+  [mod-if-screen-sm~="text-align-left"]{
+    text-align: left;
+  }
+  [mod-if-screen-sm~="text-align-right"]{
+    text-align: right;
+  }
+  [mod-if-screen-sm~="text-align-justify"]{
+    text-align: justify;
+  }
+
+  /* __ text decoration __ */
+
+  [mod-if-screen-sm~="text-line-through"],
+  [mod-if-screen-sm~="text-line-through"] a{
+    text-decoration: line-through;
+  }
+  [mod-if-screen-sm~="text-line-underline"],
+  [mod-if-screen-sm~="text-line-underline"] a{
+    text-decoration: underline;
+  }
+  [mod-if-screen-sm~="text-line-overline"],
+  [mod-if-screen-sm~="text-line-overline"] a{
+    text-decoration: overline;
+  }
+  [mod-if-screen-sm~="text-line-through"],
+  [mod-if-screen-sm~="text-line-through"] a{
+    text-decoration: line-through;
+  }
+
+  /* __ white space __*/
+
+  [mod-if-screen-sm~="text-nowrap"]{
+    white-space: nowrap;
+  }
+
+  /*__ text  __*/
+
+  [mod-if-screen-sm~="text-capitalize"],
+  [mod-if-screen-sm~="text-capitalize"] a{
+    text-transform: capitalize;
+  }
+  [mod-if-screen-sm~="text-lowercase"],
+  [mod-if-screen-sm~="text-lowercase"] a{
+    text-transform: lowercase;
+  }
+  [mod-if-screen-sm~="text-uppercase"],
+  [mod-if-screen-sm~="text-uppercase"] a{
+    text-transform: uppercase;
+  }
+
+  /* __ text style __ */
+
+  [mod-if-screen-sm~="text-normal"],
+  [mod-if-screen-sm~="text-normal"] a{
+    font-style: normal;
+  }
+  [mod-if-screen-sm~="text-italic"],
+  [mod-if-screen-sm~="text-italic"] a{
+    font-style: italic;
+  }
+  [mod-if-screen-sm~="text-oblique"],
+  [mod-if-screen-sm~="text-oblique"] a{
+    font-style: oblique;
+  }
+  [mod-if-screen-sm~="text-initial"],
+  [mod-if-screen-sm~="text-initial"] a{
+    font-style: initial;
+  }
+  [mod-if-screen-sm~="text-inherit"],
+  [mod-if-screen-sm~="text-inherit"] a{
+    font-style: inherit;
+  }
+
+  /* __ font weight __ */
+
+  [mod-if-screen-sm~="text-strong"],
+  [mod-if-screen-sm~="text-strong"] a{
+    font-weight: 600;
+  }
+  [mod-if-screen-sm~="text-lite"],
+  [mod-if-screen-sm~="text-lite"] a,
+  [mod-if-screen-sm~="text-300"],
+  [mod-if-screen-sm~="text-300"] a{
+    font-weight: 300;
+  }
+  [mod-if-screen-sm~="text-400"],
+  [mod-if-screen-sm~="text-400"] a{
+    font-weight: 400;
+  }
+  [mod-if-screen-sm~="text-500"],
+  [mod-if-screen-sm~="text-500"] a{
+    font-weight: 500;
+  }
+  [mod-if-screen-sm~="text-600"],
+  [mod-if-screen-sm~="text-600"] a{
+    font-weight: 600;
+  }
+  [mod-if-screen-sm~="text-700"],
+  [mod-if-screen-sm~="text-700"] a{
+    font-weight: 700;
+  }
+  [mod-if-screen-sm~="text-800"],
+  [mod-if-screen-sm~="text-800"] a{
+    font-weight: 800;
+  }
+
+}
+
+/* extra small xs */
+
+@media (max-width: 748px){
+
+ [mod-if-screen-xs~="text-small"]{
+    font-size: 80%;
+  }
+  [mod-if-screen-xs~="text-insert"],
+  [mod-if-screen-xs~="text-mark"]{
+    background: #D4F5FF;
+    color: #666;
+    text-decoration: none;
+  }
+  [mod-if-screen-xs~="text-abbr"]{
+      border-bottom: 1px dotted;
+  }
+  [mod-if-screen-xs~="text-em"]{
+    font-style: italic;
+    color: #F44336;
+  }
+  [mod-if-screen-xs~="text-delete"]{
+    text-decoration: line-through;
+  }
+  [mod-if-screen-xs~="text-strong"]{
+      font-weight: 700;
+  }
+  [mod-if-screen-xs~="text-code"]{
+    color: #F44336 !important;
+    font-family: monospace, arial;
+  }
+  [mod-if-screen-xs~="text-h1"]{
+    font-size: 2.5rem;
+  }
+  [mod-if-screen-xs~="text-h2"]{
+    font-size: 2rem;
+  }
+  [mod-if-screen-xs~="text-h3"]{
+    font-size: 1.75rem;
+  }
+  [mod-if-screen-xs~="text-h4"]{
+    font-size: 1.5rem;
+  }
+  [mod-if-screen-xs~="text-h5"]{
+    font-size: 1.25rem;
+  }
+  [mod-if-screen-xs~="text-h6"]{
+    font-size: 1rem;
+  }
+
+
+  /* __ text sizes __ */
+  
+  [mod-if-screen-xs~="text-10p"]
+  [mod-if-screen-xs~="text-10p"] a{
+    font-size: 10px !important;
+  }
+  [mod-if-screen-xs~="text-12p"]
+  [mod-if-screen-xs~="text-12p"] a{
+    font-size: 12px !important;
+  }
+  [mod-if-screen-xs~="text-13p"]
+  [mod-if-screen-xs~="text-13p"] a{
+    font-size: 13px !important;
+  }
+  [mod-if-screen-xs~="text-14p"]
+  [mod-if-screen-xs~="text-14p"] a{
+    font-size: 14px !important;
+  }
+  [mod-if-screen-xs~="text-15p"]
+  [mod-if-screen-xs~="text-15p"] a{
+    font-size: 15px !important;
+  }
+  [mod-if-screen-xs~="text-16p"]
+  [mod-if-screen-xs~="text-16p"] a{
+    font-size: 16px !important;
+  }
+  [mod-if-screen-xs~="text-17p"]
+  [mod-if-screen-xs~="text-17p"] a{
+    font-size: 17px !important;
+    font-weight: 500;
+  }
+  [mod-if-screen-xs~="text-18p"]
+  [mod-if-screen-xs~="text-18p"] a{
+    font-size: 18px !important;
+  }
+  [mod-if-screen-xs~="text-19p"]
+  [mod-if-screen-xs~="text-19p"] a{
+    font-size: 19px !important;
+    font-weight: 500;
+  }
+  [mod-if-screen-xs~="text-20p"]
+  [mod-if-screen-xs~="text-20p"] a{
+    font-size: 20px !important;
+  }
+  [mod-if-screen-xs~="text-21p"]
+  [mod-if-screen-xs~="text-21p"] a{
+    font-size: 21px !important;
+  }
+  [mod-if-screen-xs~="text-22p"]
+  [mod-if-screen-xs~="text-22p"] a{
+    font-size: 22px !important;
+  }
+  [mod-if-screen-xs~="text-23p"]
+  [mod-if-screen-xs~="text-23p"] a{
+    font-size: 23px !important;
+  }
+  [mod-if-screen-xs~="text-24p"]
+  [mod-if-screen-xs~="text-24p"] a{
+    font-size: 24px !important;
+  }
+  [mod-if-screen-xs~="text-25p"]
+  [mod-if-screen-xs~="text-25p"] a{
+    font-size: 24px !important;
+  }
+  [mod-if-screen-xs~="text-26p"]
+  [mod-if-screen-xs~="text-26p"] a{
+    font-size: 26px !important;
+    font-weight: 600;
+  }
+  [mod-if-screen-xs~="text-27p"]
+  [mod-if-screen-xs~="text-27p"] a{
+    font-size: 27px !important;
+  }
+  [mod-if-screen-xs~="text-28p"]
+  [mod-if-screen-xs~="text-28p"] a{
+    font-size: 28px !important;
+  }
+  [mod-if-screen-xs~="text-29p"]
+  [mod-if-screen-xs~="text-29p"] a{
+    font-size: 29px !important;
+  }
+  [mod-if-screen-xs~="text-30p"]
+  [mod-if-screen-xs~="text-30p"] a{
+    font-size: 30px !important;
+  }
+  [mod-if-screen-xs~="text-31p"]
+  [mod-if-screen-xs~="text-31p"] a{
+    font-size: 31px !important;
+  }
+  [mod-if-screen-xs~="text-32p"]
+  [mod-if-screen-xs~="text-32p"] a{
+    font-size: 32px !important;
+  }
+
+  /*__ text alignment __*/
+
+  [mod-if-screen-xs~="text-align-center"]{
+    text-align: center;
+  }
+  [mod-if-screen-xs~="text-align-left"]{
+    text-align: left;
+  }
+  [mod-if-screen-xs~="text-align-right"]{
+    text-align: right;
+  }
+  [mod-if-screen-xs~="text-align-justify"]{
+    text-align: justify;
+  }
+
+  /* __ text decoration __ */
+
+  [mod-if-screen-xs~="text-line-through"],
+  [mod-if-screen-xs~="text-line-through"] a{
+    text-decoration: line-through;
+  }
+  [mod-if-screen-xs~="text-line-underline"],
+  [mod-if-screen-xs~="text-line-underline"] a{
+    text-decoration: underline;
+  }
+  [mod-if-screen-xs~="text-line-overline"],
+  [mod-if-screen-xs~="text-line-overline"] a{
+    text-decoration: overline;
+  }
+  [mod-if-screen-xs~="text-line-through"],
+  [mod-if-screen-xs~="text-line-through"] a{
+    text-decoration: line-through;
+  }
+
+  /* __ white space __*/
+
+  [mod-if-screen-xs~="text-nowrap"]{
+    white-space: nowrap;
+  }
+
+  /*__ text  __*/
+
+  [mod-if-screen-xs~="text-capitalize"],
+  [mod-if-screen-xs~="text-capitalize"] a{
+    text-transform: capitalize;
+  }
+  [mod-if-screen-xs~="text-lowercase"],
+  [mod-if-screen-xs~="text-lowercase"] a{
+    text-transform: lowercase;
+  }
+  [mod-if-screen-xs~="text-uppercase"],
+  [mod-if-screen-xs~="text-uppercase"] a{
+    text-transform: uppercase;
+  }
+
+  /* __ text style __ */
+
+  [mod-if-screen-xs~="text-normal"],
+  [mod-if-screen-xs~="text-normal"] a{
+    font-style: normal;
+  }
+  [mod-if-screen-xs~="text-italic"],
+  [mod-if-screen-xs~="text-italic"] a{
+    font-style: italic;
+  }
+  [mod-if-screen-xs~="text-oblique"],
+  [mod-if-screen-xs~="text-oblique"] a{
+    font-style: oblique;
+  }
+  [mod-if-screen-xs~="text-initial"],
+  [mod-if-screen-xs~="text-initial"] a{
+    font-style: initial;
+  }
+  [mod-if-screen-xs~="text-inherit"],
+  [mod-if-screen-xs~="text-inherit"] a{
+    font-style: inherit;
+  }
+
+  /* __ font weight __ */
+
+  [mod-if-screen-xs~="text-strong"],
+  [mod-if-screen-xs~="text-strong"] a{
+    font-weight: 600;
+  }
+  [mod-if-screen-xs~="text-lite"],
+  [mod-if-screen-xs~="text-lite"] a,
+  [mod-if-screen-xs~="text-300"],
+  [mod-if-screen-xs~="text-300"] a{
+    font-weight: 300;
+  }
+  [mod-if-screen-xs~="text-400"],
+  [mod-if-screen-xs~="text-400"] a{
+    font-weight: 400;
+  }
+  [mod-if-screen-xs~="text-500"],
+  [mod-if-screen-xs~="text-500"] a{
+    font-weight: 500;
+  }
+  [mod-if-screen-xs~="text-600"],
+  [mod-if-screen-xs~="text-600"] a{
+    font-weight: 600;
+  }
+  [mod-if-screen-xs~="text-700"],
+  [mod-if-screen-xs~="text-700"] a{
+    font-weight: 700;
+  }
+  [mod-if-screen-xs~="text-800"],
+  [mod-if-screen-xs~="text-800"] a{
+    font-weight: 800;
+  }
+
+}
+
+/* extra extra small */
+
+@media (max-width: 480px){
+  
+  [mod-if-screen-xxs~="text-small"]{
+    font-size: 80%;
+  }
+  [mod-if-screen-xxs~="text-insert"],
+  [mod-if-screen-xxs~="text-mark"]{
+    background: #D4F5FF;
+    color: #666;
+    text-decoration: none;
+  }
+  [mod-if-screen-xxs~="text-abbr"]{
+      border-bottom: 1px dotted;
+  }
+  [mod-if-screen-xxs~="text-em"]{
+    font-style: italic;
+    color: #F44336;
+  }
+  [mod-if-screen-xxs~="text-delete"]{
+    text-decoration: line-through;
+  }
+  [mod-if-screen-xxs~="text-strong"]{
+      font-weight: 700;
+  }
+  [mod-if-screen-xxs~="text-code"]{
+    color: #F44336 !important;
+    font-family: monospace, arial;
+  }
+  [mod-if-screen-xxs~="text-h1"]{
+    font-size: 2.5rem;
+  }
+  [mod-if-screen-xxs~="text-h2"]{
+    font-size: 2rem;
+  }
+  [mod-if-screen-xxs~="text-h3"]{
+    font-size: 1.75rem;
+  }
+  [mod-if-screen-xxs~="text-h4"]{
+    font-size: 1.5rem;
+  }
+  [mod-if-screen-xxs~="text-h5"]{
+    font-size: 1.25rem;
+  }
+  [mod-if-screen-xxs~="text-h6"]{
+    font-size: 1rem;
+  }
+
+
+  /* __ text sizes __ */
+  
+  [mod-if-screen-xxs~="text-10p"]
+  [mod-if-screen-xxs~="text-10p"] a{
+    font-size: 10px !important;
+  }
+  [mod-if-screen-xxs~="text-12p"]
+  [mod-if-screen-xxs~="text-12p"] a{
+    font-size: 12px !important;
+  }
+  [mod-if-screen-xxs~="text-13p"]
+  [mod-if-screen-xxs~="text-13p"] a{
+    font-size: 13px !important;
+  }
+  [mod-if-screen-xxs~="text-14p"]
+  [mod-if-screen-xxs~="text-14p"] a{
+    font-size: 14px !important;
+  }
+  [mod-if-screen-xxs~="text-15p"]
+  [mod-if-screen-xxs~="text-15p"] a{
+    font-size: 15px !important;
+  }
+  [mod-if-screen-xxs~="text-16p"]
+  [mod-if-screen-xxs~="text-16p"] a{
+    font-size: 16px !important;
+  }
+  [mod-if-screen-xxs~="text-17p"]
+  [mod-if-screen-xxs~="text-17p"] a{
+    font-size: 17px !important;
+    font-weight: 500;
+  }
+  [mod-if-screen-xxs~="text-18p"]
+  [mod-if-screen-xxs~="text-18p"] a{
+    font-size: 18px !important;
+  }
+  [mod-if-screen-xxs~="text-19p"]
+  [mod-if-screen-xxs~="text-19p"] a{
+    font-size: 19px !important;
+    font-weight: 500;
+  }
+  [mod-if-screen-xxs~="text-20p"]
+  [mod-if-screen-xxs~="text-20p"] a{
+    font-size: 20px !important;
+  }
+  [mod-if-screen-xxs~="text-21p"]
+  [mod-if-screen-xxs~="text-21p"] a{
+    font-size: 21px !important;
+  }
+  [mod-if-screen-xxs~="text-22p"]
+  [mod-if-screen-xxs~="text-22p"] a{
+    font-size: 22px !important;
+  }
+  [mod-if-screen-xxs~="text-23p"]
+  [mod-if-screen-xxs~="text-23p"] a{
+    font-size: 23px !important;
+  }
+  [mod-if-screen-xxs~="text-24p"]
+  [mod-if-screen-xxs~="text-24p"] a{
+    font-size: 24px !important;
+  }
+  [mod-if-screen-xxs~="text-25p"]
+  [mod-if-screen-xxs~="text-25p"] a{
+    font-size: 24px !important;
+  }
+  [mod-if-screen-xxs~="text-26p"]
+  [mod-if-screen-xxs~="text-26p"] a{
+    font-size: 26px !important;
+    font-weight: 600;
+  }
+  [mod-if-screen-xxs~="text-27p"]
+  [mod-if-screen-xxs~="text-27p"] a{
+    font-size: 27px !important;
+  }
+  [mod-if-screen-xxs~="text-28p"]
+  [mod-if-screen-xxs~="text-28p"] a{
+    font-size: 28px !important;
+  }
+  [mod-if-screen-xxs~="text-29p"]
+  [mod-if-screen-xxs~="text-29p"] a{
+    font-size: 29px !important;
+  }
+  [mod-if-screen-xxs~="text-30p"]
+  [mod-if-screen-xxs~="text-30p"] a{
+    font-size: 30px !important;
+  }
+  [mod-if-screen-xxs~="text-31p"]
+  [mod-if-screen-xxs~="text-31p"] a{
+    font-size: 31px !important;
+  }
+  [mod-if-screen-xxs~="text-32p"]
+  [mod-if-screen-xxs~="text-32p"] a{
+    font-size: 32px !important;
+  }
+
+  /*__ text alignment __*/
+
+  [mod-if-screen-xxs~="text-align-center"]{
+    text-align: center;
+  }
+  [mod-if-screen-xxs~="text-align-left"]{
+    text-align: left;
+  }
+  [mod-if-screen-xxs~="text-align-right"]{
+    text-align: right;
+  }
+  [mod-if-screen-xxs~="text-align-justify"]{
+    text-align: justify;
+  }
+
+  /* __ text decoration __ */
+
+  [mod-if-screen-xxs~="text-line-through"],
+  [mod-if-screen-xxs~="text-line-through"] a{
+    text-decoration: line-through;
+  }
+  [mod-if-screen-xxs~="text-line-underline"],
+  [mod-if-screen-xxs~="text-line-underline"] a{
+    text-decoration: underline;
+  }
+  [mod-if-screen-xxs~="text-line-overline"],
+  [mod-if-screen-xxs~="text-line-overline"] a{
+    text-decoration: overline;
+  }
+  [mod-if-screen-xxs~="text-line-through"],
+  [mod-if-screen-xxs~="text-line-through"] a{
+    text-decoration: line-through;
+  }
+
+  /* __ white space __*/
+
+  [mod-if-screen-xxs~="text-nowrap"]{
+    white-space: nowrap;
+  }
+
+  /*__ text  __*/
+
+  [mod-if-screen-xxs~="text-capitalize"],
+  [mod-if-screen-xxs~="text-capitalize"] a{
+    text-transform: capitalize;
+  }
+  [mod-if-screen-xxs~="text-lowercase"],
+  [mod-if-screen-xxs~="text-lowercase"] a{
+    text-transform: lowercase;
+  }
+  [mod-if-screen-xxs~="text-uppercase"],
+  [mod-if-screen-xxs~="text-uppercase"] a{
+    text-transform: uppercase;
+  }
+
+  /* __ text style __ */
+
+  [mod-if-screen-xxs~="text-normal"],
+  [mod-if-screen-xxs~="text-normal"] a{
+    font-style: normal;
+  }
+  [mod-if-screen-xxs~="text-italic"],
+  [mod-if-screen-xxs~="text-italic"] a{
+    font-style: italic;
+  }
+  [mod-if-screen-xxs~="text-oblique"],
+  [mod-if-screen-xxs~="text-oblique"] a{
+    font-style: oblique;
+  }
+  [mod-if-screen-xxs~="text-initial"],
+  [mod-if-screen-xxs~="text-initial"] a{
+    font-style: initial;
+  }
+  [mod-if-screen-xxs~="text-inherit"],
+  [mod-if-screen-xxs~="text-inherit"] a{
+    font-style: inherit;
+  }
+
+  /* __ font weight __ */
+
+  [mod-if-screen-xxs~="text-strong"],
+  [mod-if-screen-xxs~="text-strong"] a{
+    font-weight: 600;
+  }
+  [mod-if-screen-xxs~="text-lite"],
+  [mod-if-screen-xxs~="text-lite"] a,
+  [mod-if-screen-xxs~="text-300"],
+  [mod-if-screen-xxs~="text-300"] a{
+    font-weight: 300;
+  }
+  [mod-if-screen-xxs~="text-400"],
+  [mod-if-screen-xxs~="text-400"] a{
+    font-weight: 400;
+  }
+  [mod-if-screen-xxs~="text-500"],
+  [mod-if-screen-xxs~="text-500"] a{
+    font-weight: 500;
+  }
+  [mod-if-screen-xxs~="text-600"],
+  [mod-if-screen-xxs~="text-600"] a{
+    font-weight: 600;
+  }
+  [mod-if-screen-xxs~="text-700"],
+  [mod-if-screen-xxs~="text-700"] a{
+    font-weight: 700;
+  }
+  [mod-if-screen-xxs~="text-800"],
+  [mod-if-screen-xxs~="text-800"] a{
+    font-weight: 800;
+  }
+
+}

@@ -1,0 +1,382 @@
+/*
+  @about Modulr.css
+  -----------------------------------------
+  @desc: Pure Css Typography Module
+  @author: Alan Museljic
+  @git: https://github.com/ModulrCSS/typography
+  @source: http://www.getmodulr.com/css/typography
+  ------------------------------------------------
+  @uses: modulr/typography/*
+  @docs: true 
+\-------------------------------------------------*/
+
+
+/* 
+  @property: font-size
+  @desc: sets font-size to initial 80%
+*/
+
+small,
+[mod-text~="small"]{
+  font-size: 80%;
+}
+
+/* 
+  @property: ins, mark
+  @desc: mark element
+*/
+
+ins, mark{
+  background: #D4F5FF;
+  color: #666;
+  text-decoration: none;
+}
+
+/* 
+  @property: abbr
+  @desc: mark element
+*/
+
+abbr{
+    border-bottom: 1px dotted;
+}
+
+/* 
+  @property: font-style
+  @desc: adds font style italic
+*/
+
+dfn, em{
+  font-style: italic;
+}
+
+/* 
+  @property: text decoration
+  @desc: delete or line-through 
+*/
+
+del{
+  text-decoration: line-through;
+}
+
+/* 
+  @property: color
+  @desc: Emphasize text using the em
+*/
+
+em{
+  color: #F44336;
+}
+
+/* 
+  @property: font-weight
+  @desc: Imply any extra importance using the strong element
+*/
+
+strong {
+    font-weight: 700;
+}
+
+
+/* 
+  @property: color, font-family
+  @desc: Define inline code snippets using the code
+*/
+
+.code,
+code,
+[mod-text~="code"]{
+  color: #F44336 !important;
+  font-family: monospace, arial;
+}
+
+/* 
+  @property: font-size
+  @desc: <h1>
+*/
+
+h1{
+  font-size: 2.5rem;
+}
+
+/* 
+  @property: font-size
+  @desc: <h2>
+*/
+
+h2{
+  font-size: 2rem;
+}
+
+/* 
+  @property: font-size
+  @desc: <h3>
+*/
+
+h3{
+  font-size: 1.75rem;
+}
+
+/* 
+  @property: font-size
+  @desc: <h4>
+*/
+
+h4{
+  font-size: 1.5rem;
+}
+
+/* 
+  @property: font-size
+  @desc: <h5>
+*/
+
+h5{
+  font-size: 1.25rem;
+}
+
+/* 
+  @property: font-size
+  @desc: <h6>
+*/
+
+h6{
+  font-size: 1rem;
+}
+
+/* 
+  @property: font-size, color, line-heigh
+  @desc: h* elements reset
+*/
+
+h1,h2,h3,h4,h5,h6{
+  font-weight: 500;
+  color: #444;
+  line-height: 1.2;
+}
+
+
+/* 
+  @property: font-size
+  @desc: h* small
+*/
+
+h1 small,h2 small,h3 small,
+h4 small,h5 small,h6 small{
+  color: #666;
+  font-size: 60%;
+  font-weight: 400;
+  line-height: 1;
+  vertical-align: middle;
+}
+
+/* __ text sizes __ */
+
+[mod-text~="10p"],
+[mod-text~="10p"] a{
+  font-size: 10px !important;
+}
+[mod-text~="12p"],
+[mod-text~="12p"] a{
+  font-size: 12px !important;
+}
+[mod-text~="caption"],
+[mod-text~="13p"],
+[mod-text~="13p"] a{
+  font-size: 13px !important;
+}
+[mod-text~="14p"],
+[mod-text~="14p"] a{
+  font-size: 14px !important;
+}
+
+[mod-text~="body"],
+[mod-text~="15p"],
+[mod-text~="15p"] a{
+  font-size: 15px !important;
+}
+[mod-text~="16p"],
+[mod-text~="16p"] a{
+  font-size: 16px !important;
+}
+[mod-text~="heading"],
+[mod-text~="17p"],
+[mod-text~="17p"] a{
+  font-size: 17px !important;
+  font-weight: 500;
+}
+[mod-text~="18p"],
+[mod-text~="18p"] a{
+  font-size: 18px !important;
+}
+[mod-text~="title"],
+[mod-text~="19p"],
+[mod-text~="19p"] a{
+  font-size: 19px !important;
+  font-weight: 500;
+}
+[mod-text~="20p"],
+[mod-text~="20p"] a{
+  font-size: 20px !important;
+}
+[mod-text~="21p"],
+[mod-text~="21p"] a{
+  font-size: 21px !important;
+}
+[mod-text~="22p"],
+[mod-text~="22p"] a{
+  font-size: 22px !important;
+}
+[mod-text~="23p"],
+[mod-text~="23p"] a{
+  font-size: 23px !important;
+}
+[mod-text~="24p"],
+[mod-text~="24p"] a{
+  font-size: 24px !important;
+}
+[mod-text~="25p"],
+[mod-text~="25p"] a{
+  font-size: 24px !important;
+}
+[mod-text~="display"],
+[mod-text~="26p"],
+[mod-text~="26p"] a{
+  font-size: 26px !important;
+  font-weight: 600;
+}
+[mod-text~="27p"],
+[mod-text~="27p"] a{
+  font-size: 27px !important;
+}
+[mod-text~="28p"],
+[mod-text~="28p"] a{
+  font-size: 28px !important;
+}
+[mod-text~="29p"],
+[mod-text~="29p"] a{
+  font-size: 29px !important;
+}
+[mod-text~="30p"],
+[mod-text~="30p"] a{
+  font-size: 30px !important;
+}
+[mod-text~="31p"],
+[mod-text~="31p"] a{
+  font-size: 31px !important;
+}
+[mod-text~="32p"],
+[mod-text~="32p"] a{
+  font-size: 32px !important;
+}
+
+/*__ text alignment __*/
+
+[mod-text~="align-center"]{
+  text-align: center;
+}
+[mod-text~="align-left"]{
+  text-align: left;
+}
+[mod-text~="align-right"]{
+  text-align: right;
+}
+[mod-text~="align-justify"]{
+  text-align: justify;
+}
+
+/* __ text decoration __ */
+
+[mod-text~="line-through"],
+[mod-text~="line-through"] a{
+  text-decoration: line-through;
+}
+[mod-text~="underline"],
+[mod-text~="underline"] a{
+  text-decoration: underline;
+}
+[mod-text~="overline"],
+[mod-text~="overline"] a{
+  text-decoration: overline;
+}
+[mod-text~="line-through"],
+[mod-text~="line-through"] a{
+  text-decoration: line-through;
+}
+
+/* __ white space __*/
+
+[mod-text~="nowrap"]{
+  white-space: nowrap;
+}
+
+/*__ text  __*/
+
+[mod-text~="capitalize"],
+[mod-text~="capitalize"] a{
+  text-transform: capitalize;
+}
+[mod-text~="lowercase"],
+[mod-text~="lowercase"] a{
+  text-transform: lowercase;
+}
+[mod-text~="uppercase"],
+[mod-text~="uppercase"] a{
+  text-transform: uppercase;
+}
+
+/* __ text style __ */
+
+[mod-text~="normal"],
+[mod-text~="normal"] a{
+  font-style: normal;
+}
+[mod-text~="italic"],
+[mod-text~="italic"] a{
+  font-style: italic;
+}
+[mod-text~="oblique"],
+[mod-text~="oblique"] a{
+  font-style: oblique;
+}
+[mod-text~="initial"],
+[mod-text~="initial"] a{
+  font-style: initial;
+}
+[mod-text~="inherit"],
+[mod-text~="inherit"] a{
+  font-style: inherit;
+}
+
+/* __ font weight __ */
+
+[mod-text~="strong"],
+[mod-text~="strong"] a{
+  font-weight: 600;
+}
+[mod-text~="lite"],
+[mod-text~="lite"] a,
+[mod-text~="300"],
+[mod-text~="300"] a{
+  font-weight: 300;
+}
+[mod-text~="400"],
+[mod-text~="400"] a{
+  font-weight: 400;
+}
+[mod-text~="500"],
+[mod-text~="500"] a{
+  font-weight: 500;
+}
+[mod-text~="600"],
+[mod-text~="600"] a{
+  font-weight: 600;
+}
+[mod-text~="700"],
+[mod-text~="700"] a{
+  font-weight: 700;
+}
+[mod-text~="800"],
+[mod-text~="800"] a{
+  font-weight: 800;
+}

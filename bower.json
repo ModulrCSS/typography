@@ -1,0 +1,25 @@
+{
+  "name": "modulr-typography",
+  "homepage": "https://github.com/ModulrCSS/typography",
+  "authors": [
+    "uloga <wpnemesis@gmail.com>"
+  ],
+  "description": "Modulr.css Typography Module ( text modifiers - sizes - styles etc )",
+  "main": "",
+  "keywords": [
+    "modulr",
+    "css3",
+    "html5",
+    "framework",
+    "frontend",
+    "boostrap"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
