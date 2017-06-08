@@ -174,210 +174,295 @@ h4 small,h5 small,h6 small{
 /* __ text sizes __ */
 
 [mod-text~="10p"],
-[mod-text~="10p"] a{
+[mod-text~="10p"] a,
+[mod-each-child~="text-10p"],
+[mod-each-child~="text-10p"] a{
   font-size: 10px !important;
 }
 [mod-text~="12p"],
-[mod-text~="12p"] a{
+[mod-text~="12p"] a,
+[mod-each-child~="text-12p"],
+[mod-each-child~="text-12p"] a{
   font-size: 12px !important;
 }
 [mod-text~="caption"],
 [mod-text~="13p"],
-[mod-text~="13p"] a{
+[mod-text~="13p"] a,
+[mod-each-child~="text-13p"],
+[mod-each-child~="text-13p"] a{
   font-size: 13px !important;
 }
 [mod-text~="14p"],
-[mod-text~="14p"] a{
+[mod-text~="14p"] a,
+[mod-each-child~="text-14p"],
+[mod-each-child~="text-14p"] a{
   font-size: 14px !important;
 }
-
 [mod-text~="body"],
 [mod-text~="15p"],
-[mod-text~="15p"] a{
+[mod-text~="15p"] a,
+[mod-each-child~="text-15p"],
+[mod-each-child~="text-15p"] a{
   font-size: 15px !important;
 }
 [mod-text~="16p"],
-[mod-text~="16p"] a{
+[mod-text~="16p"] a,
+[mod-each-child~="text-16p"],
+[mod-each-child~="text-16p"] a{
   font-size: 16px !important;
 }
 [mod-text~="heading"],
 [mod-text~="17p"],
-[mod-text~="17p"] a{
+[mod-text~="17p"] a,
+[mod-each-child~="text-17p"],
+[mod-each-child~="text-17p"] a{
   font-size: 17px !important;
   font-weight: 500;
 }
 [mod-text~="18p"],
-[mod-text~="18p"] a{
+[mod-text~="18p"] a,
+[mod-each-child~="text-18p"],
+[mod-each-child~="text-18p"] a{
   font-size: 18px !important;
 }
 [mod-text~="title"],
 [mod-text~="19p"],
-[mod-text~="19p"] a{
+[mod-text~="19p"] a,
+[mod-each-child~="text-19p"],
+[mod-each-child~="text-19p"] a{
   font-size: 19px !important;
   font-weight: 500;
 }
 [mod-text~="20p"],
-[mod-text~="20p"] a{
+[mod-text~="20p"] a,
+[mod-each-child~="text-20p"],
+[mod-each-child~="text-20p"] a{
   font-size: 20px !important;
 }
 [mod-text~="21p"],
-[mod-text~="21p"] a{
+[mod-text~="21p"] a,
+[mod-each-child~="text-21p"],
+[mod-each-child~="text-21p"] a{
   font-size: 21px !important;
 }
 [mod-text~="22p"],
-[mod-text~="22p"] a{
+[mod-text~="22p"] a,
+[mod-each-child~="text-22p"],
+[mod-each-child~="text-22p"] a{
   font-size: 22px !important;
 }
 [mod-text~="23p"],
-[mod-text~="23p"] a{
+[mod-text~="23p"] a,
+[mod-each-child~="text-23p"],
+[mod-each-child~="text-23p"] a{
   font-size: 23px !important;
 }
 [mod-text~="24p"],
-[mod-text~="24p"] a{
+[mod-text~="24p"] a,
+[mod-each-child~="text-24p"],
+[mod-each-child~="text-24p"] a{
   font-size: 24px !important;
 }
 [mod-text~="25p"],
-[mod-text~="25p"] a{
+[mod-text~="25p"] a,
+[mod-each-child~="text-25p"],
+[mod-each-child~="text-25p"] a{
   font-size: 24px !important;
 }
 [mod-text~="display"],
 [mod-text~="26p"],
-[mod-text~="26p"] a{
+[mod-text~="26p"] a,
+[mod-each-child~="text-26p"],
+[mod-each-child~="text-26p"] a{
   font-size: 26px !important;
   font-weight: 600;
 }
 [mod-text~="27p"],
-[mod-text~="27p"] a{
+[mod-text~="27p"] a,
+[mod-each-child~="text-27p"],
+[mod-each-child~="text-27p"] a{
   font-size: 27px !important;
 }
 [mod-text~="28p"],
-[mod-text~="28p"] a{
+[mod-text~="28p"] a,
+[mod-each-child~="text-28p"],
+[mod-each-child~="text-28p"] a{
   font-size: 28px !important;
 }
 [mod-text~="29p"],
-[mod-text~="29p"] a{
+[mod-text~="29p"] a,
+[mod-each-child~="text-29p"],
+[mod-each-child~="text-29p"] a{
   font-size: 29px !important;
 }
 [mod-text~="30p"],
-[mod-text~="30p"] a{
+[mod-text~="30p"] a,
+[mod-each-child~="text-30p"],
+[mod-each-child~="text-30p"] a{
   font-size: 30px !important;
 }
 [mod-text~="31p"],
-[mod-text~="31p"] a{
+[mod-text~="31p"] a,
+[mod-each-child~="text-31p"],
+[mod-each-child~="text-31p"] a{
   font-size: 31px !important;
 }
 [mod-text~="32p"],
-[mod-text~="32p"] a{
+[mod-text~="32p"] a,
+[mod-each-child~="text-32p"],
+[mod-each-child~="text-32p"] a{
   font-size: 32px !important;
 }
 
 /*__ text alignment __*/
 
-[mod-text~="align-center"]{
+[mod-text~="align-center"],
+[mod-each-child~="text-align-center"],
+[mod-each-child~="text-align-center"] a{
   text-align: center;
 }
-[mod-text~="align-left"]{
+[mod-text~="align-left"],
+[mod-each-child~="text-align-left"],
+[mod-each-child~="text-align-left"] a{
   text-align: left;
 }
-[mod-text~="align-right"]{
+[mod-text~="align-right"],
+[mod-each-child~="text-align-right"],
+[mod-each-child~="text-align-right"] a{
   text-align: right;
 }
-[mod-text~="align-justify"]{
+[mod-text~="align-justify"],
+[mod-each-child~="text-align-justify"],
+[mod-each-child~="text-align-justify"] a{
   text-align: justify;
 }
 
 /* __ text decoration __ */
 
 [mod-text~="line-through"],
-[mod-text~="line-through"] a{
+[mod-text~="line-through"] a,
+[mod-each-child~="text-line-through"],
+[mod-each-child~="text-line-through"] a{
   text-decoration: line-through;
 }
 [mod-text~="underline"],
-[mod-text~="underline"] a{
+[mod-text~="underline"] a,
+[mod-each-child~="text-underline"],
+[mod-each-child~="text-underline"] a{
   text-decoration: underline;
 }
 [mod-text~="overline"],
-[mod-text~="overline"] a{
+[mod-text~="overline"] a,
+[mod-each-child~="text-overline"],
+[mod-each-child~="text-overline"] a{
   text-decoration: overline;
-}
-[mod-text~="line-through"],
-[mod-text~="line-through"] a{
-  text-decoration: line-through;
 }
 
 /* __ white space __*/
 
-[mod-text~="nowrap"]{
+[mod-text~="nowrap"],
+[mod-each-child~="text-nowrap"],
+[mod-each-child~="text-nowrap"] a{
   white-space: nowrap;
 }
 
 /*__ text  __*/
 
 [mod-text~="capitalize"],
-[mod-text~="capitalize"] a{
+[mod-text~="capitalize"] a,
+[mod-each-child~="text-capitalize"],
+[mod-each-child~="text-capitalize"] a{
   text-transform: capitalize;
 }
 [mod-text~="lowercase"],
-[mod-text~="lowercase"] a{
+[mod-text~="lowercase"] a,
+[mod-each-child~="text-lowercase"],
+[mod-each-child~="text-lowercase"] a{
   text-transform: lowercase;
 }
 [mod-text~="uppercase"],
-[mod-text~="uppercase"] a{
+[mod-text~="uppercase"] a,
+[mod-each-child~="text-uppercase"],
+[mod-each-child~="text-uppercase"] a{
   text-transform: uppercase;
 }
 
 /* __ text style __ */
 
 [mod-text~="normal"],
-[mod-text~="normal"] a{
+[mod-text~="normal"] a,
+[mod-each-child~="text-normal"],
+[mod-each-child~="text-normal"] a{
   font-style: normal;
 }
 [mod-text~="italic"],
-[mod-text~="italic"] a{
+[mod-text~="italic"] a,
+[mod-each-child~="text-italic"],
+[mod-each-child~="text-italic"] a{
   font-style: italic;
 }
 [mod-text~="oblique"],
-[mod-text~="oblique"] a{
+[mod-text~="oblique"] a,
+[mod-each-child~="text-oblique"],
+[mod-each-child~="text-oblique"] a{
   font-style: oblique;
 }
 [mod-text~="initial"],
-[mod-text~="initial"] a{
+[mod-text~="initial"] a,
+[mod-each-child~="text-initial"],
+[mod-each-child~="text-initial"] a{
   font-style: initial;
 }
 [mod-text~="inherit"],
-[mod-text~="inherit"] a{
+[mod-text~="inherit"] a,
+[mod-each-child~="text-inherit"],
+[mod-each-child~="text-inherit"] a{
   font-style: inherit;
 }
 
 /* __ font weight __ */
 
 [mod-text~="strong"],
-[mod-text~="strong"] a{
+[mod-text~="strong"] a,
+[mod-each-child~="text-strong"],
+[mod-each-child~="text-strong"] a{
   font-weight: 600;
 }
 [mod-text~="lite"],
 [mod-text~="lite"] a,
 [mod-text~="300"],
-[mod-text~="300"] a{
+[mod-text~="300"] a,
+[mod-each-child~="text-300"],
+[mod-each-child~="text-300"] a{
   font-weight: 300;
 }
 [mod-text~="400"],
-[mod-text~="400"] a{
+[mod-text~="400"] a,
+[mod-each-child~="text-400"],
+[mod-each-child~="text-400"] a{
   font-weight: 400;
 }
 [mod-text~="500"],
-[mod-text~="500"] a{
+[mod-text~="500"] a,
+[mod-each-child~="text-500"],
+[mod-each-child~="text-500"] a{
   font-weight: 500;
 }
 [mod-text~="600"],
-[mod-text~="600"] a{
+[mod-text~="600"] a,
+[mod-each-child~="text-600"],
+[mod-each-child~="text-600"] a{
   font-weight: 600;
 }
 [mod-text~="700"],
-[mod-text~="700"] a{
+[mod-text~="700"] a,
+[mod-each-child~="text-700"],
+[mod-each-child~="text-700"] a{
   font-weight: 700;
 }
 [mod-text~="800"],
-[mod-text~="800"] a{
+[mod-text~="800"] a,
+[mod-each-child~="text-800"],
+[mod-each-child~="text-800"] a{
   font-weight: 800;
 }
